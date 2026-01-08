@@ -56,7 +56,7 @@ I am the author of a large open source patch editor library, and was hoping to m
 
 ### No System Exclusive (Sysex) Support
 
-The Zoia supports both MIDI In and MIDI Out, but incredibly has no support at all for system exclusive to upload or download patches.  The only way to upload a patch is to load it onto a specific folder on a Micro SD card, then reboot the Zoia with the card installed and wait for it to discover the patch and load it.  Downloading is similarly cumbersome.
+The Zoia supports both MIDI In and MIDI Out, but incredibly has no support at all for system exclusive to upload or download patches.  The only way to upload a patch is to load it onto a specific folder on a Micro SD card, then insert it into the Zoia and instruct the Zoia to load it, then wait.  Downloading is similarly cumbersome.
 
 In order to build a patch editor, I would really require one single sysex command: sending a patch over MIDI from the computer to the working memory of the Zoia.  A very simple piece of code.  But unless Empress implements this, an editor is not going to happen.  Also I note that Empress doesn't have a MIDI Manufacturer's ID (required for sysex, like $300 a year), making this even less likely.
 
