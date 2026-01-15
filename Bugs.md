@@ -35,9 +35,7 @@ Save does not track which patch you are saved to.
 
 If you do any file operation before saving, you will need to manually keep track of where you moved your patch.
 
-Save also has a nasty little gotcha, because the Save button is overloaded and used as an "okay" button for file operations.  For example, when you move a patch, normally you select the patch you want to move, then press Move, then select where to move it to, then press the encoder, and final press Save to confirm.
-
-Multiple times, I have accidentally pressed Save without pressing the encoder first.  You'd imagine that the Zoia would helpfully tell you that you forgot to press the encoder.  But no.  Instead, it starts **saving** the file on where you had selected.  **Oh no!** 
+Save also has a nasty little gotcha, because the Save button is overloaded and used as an "okay" button for file operations.  For example, when you move a patch, normally you select the patch you want to move, then press Move, then select where to move it to, then press the encoder, and final press Save to confirm.  Multiple times, I have accidentally pressed Save without pressing the encoder first.  You'd imagine that the Zoia would helpfully tell you that you forgot to press the encoder.  But no.  Instead, it starts **saving** the file where you had selected.  **Oh no!** 
 
 
 ### Move is Broken
