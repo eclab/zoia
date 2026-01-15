@@ -8,7 +8,7 @@ Zoia has a significant number of bugs, omissions, and misfeatures.  Empress told
 
 This is a major bug, and it makes starred parameters useless.  Choosing a starred parameter and editing is in many cases profoundly slow and sometimes possible because it ignores encoder movement.  However if you pick the starred parameter, then manually click on the pad in question, you can edit it smoothly and cleanly.  This is a serious bug and appears to be due to incorrect encoder polling.
 
-### Sine waves creates sound artifacts
+### Sine waves create sound artifacts
 
 Sine waves -- which shouldn't be able to have any aliasing at all -- create significant sound artifacts at various pitches.  This should never happen.  See the Hammond.bin file in this repository for example.
 
